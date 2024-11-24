@@ -20,9 +20,22 @@ console.log(canvas);
  */
 const ctx = canvas.getContext('2d');
 /**
+ * @name ellipse
+ */
+const ellipse = {
+    cx: null,
+    cy: null,
+    a: 100,
+    b: 50
+};
+ellipse.cx = canvas.width / 2;
+ellipse.cy = canvas.height / 2;
+/**
  * draw ellipse
  */
-
+ctx.beginPath();
+ctx.ellipse(ellipse.cx, ellipse.cy, ellipse.a, ellipse.b, 0, 0, 2 * Math.PI);
+ctx.stroke();
 /**
  * debugging
  */
