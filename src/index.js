@@ -7,3 +7,7 @@
  * @name viewport
  */
 const viewport = document.getElementById('viewport');
+/**
+ * @name canvas
+ */
+const canvas = viewport.querySelector('canvas');
