@@ -37,6 +37,13 @@ ctx.beginPath();
 ctx.ellipse(ellipse.cx, ellipse.cy, ellipse.a, ellipse.b, 0, 0, 2 * Math.PI);
 ctx.stroke();
 /**
+ * draw rect
+ */
+ctx.save();
+ctx.fillStyle = 'red';
+ctx.fillRect(ellipse.cx, ellipse.cy, 5, 5);
+ctx.restore();
+/**
  * debugging
  */
 console.log(ctx);
