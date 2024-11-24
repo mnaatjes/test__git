@@ -41,7 +41,7 @@ ctx.stroke();
  */
 ctx.save();
 ctx.fillStyle = 'red';
-ctx.fillRect(ellipse.cx, ellipse.cy, 5, 5);
+ctx.fillRect(ellipse.cx - 10, ellipse.cy - 10, 20, 20);
 ctx.restore();
 /**
  * debugging
