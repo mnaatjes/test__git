@@ -40,7 +40,7 @@ ctx.stroke();
  * draw rect
  */
 ctx.save();
-ctx.fillStyle = 'red';
+ctx.fillStyle = 'blue';
 ctx.fillRect(ellipse.cx, ellipse.cy, 5, 5);
 ctx.restore();
 /**
